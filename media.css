@@ -1,0 +1,185 @@
+
+@media (max-width: 1100px) {
+   .header-nav {
+      display: none;
+   }
+
+   .header-container {
+      padding: 40px 30px;
+   }
+
+   .about__us-inner {
+      flex-direction: column-reverse;
+   }
+
+   .about__us {
+      padding-top: 200px;
+      padding-bottom: 100px;
+   }
+
+   .about__us-img {
+      width: 100%;
+      margin: 0 auto;
+   }
+
+   .about__us-info {
+      width: 100%;
+      text-align: center;
+      margin: 0 auto;
+      margin-bottom: 50px;
+   }
+
+
+   .start-item {
+      width: 50%;
+   }
+
+   .advantages {
+      padding-bottom: 100px;
+   }
+
+   .advantage-header {
+      margin-bottom: 50px;
+   }
+
+   .advantages-item {
+      width: 100%;
+   }
+
+   .partners {
+      margin-bottom: 100px;
+   }
+
+   .partner-item {
+      width: 50%;
+   }
+
+   .teachers {
+      padding-top: 100px;
+   }
+
+   .teachers-title {
+      font-size: 40px;
+      text-align: center;
+      margin-bottom: 50px;
+   }
+
+   .teachers-item {
+      width: 100%;
+   }
+
+   .feedback {
+      padding: 100px 0 50px 0;
+   }
+
+   .subscribe-btn {
+      right: 13%;
+   }
+}
+
+@media (max-width: 946px) {
+   .subscribe-btn {
+      right: 7%;
+   }
+}
+
+@media (max-width: 760px) {
+   .intro-header {
+      font-size: 50px;
+   }
+
+   .about-cash__center .count-line {
+      min-width: 630px;
+   }
+
+   .intro-item {
+      width: 100px;
+      height: 90px;
+   }
+
+   .about__us {
+      padding: 150px 0 50px 0;
+   }
+
+   .subscribe-btn {
+      right: 2%;
+   }
+
+  
+}
+
+
+@media (max-width: 600px) {
+   .intro-content {
+      padding-top: 180px;
+      margin-bottom: 213px;
+   }
+
+   .intro-header {
+      font-size: 41px;
+   }
+
+   .about__user-inner {
+      flex-direction: column;
+   }
+
+   .about-cash__center .count-line {
+      min-width: 340px;
+   }
+
+   .about__us {
+      padding-top: 100px;
+      padding-bottom: 100px;
+   }
+
+   
+   .start-item {
+      width: 100%;
+      text-align: center;
+   }
+
+   .progress-desc {
+      max-width: 100%;
+   }
+
+   .partners {
+      margin-bottom: 50px;
+   }
+   
+   .partner-item {
+      width: 100%;
+   }
+
+   .advantages {
+      padding-top: 90px;
+   }
+
+   .subscribe-btn {
+      right: 3%;
+   }
+
+   .social a {
+      width: 40px;
+      height: 40px;
+   }
+
+}
+
+@media (max-width: 500px) {
+   .border {
+      width: 425px;
+      height: 450px;
+   }
+   .advantages {
+      padding-bottom: 50px;
+   }
+}
+
+@media (max-width: 500px) {
+   .border {
+      width: 370px;
+      height: 390px;
+   }
+}
+
+
