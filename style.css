@@ -191,7 +191,6 @@ body {
    display: flex;
    align-items: center;
    justify-content: space-between;
-
 }
 
 .about__user-item p {
@@ -297,8 +296,6 @@ margin-right: 20px;
    position: relative;
 }
 
-
-
 .border {
    position: absolute;
    width: 470px;
@@ -330,9 +327,7 @@ margin-right: 20px;
 }
 
 /*------------------------------------------------------------START----------------------------------------*/
-.start {
-   
-}
+
 
 .start-title {
    font-size: 48px;
@@ -478,8 +473,6 @@ margin-right: 20px;
 
 /*----------------------------------------------------PROGRAM----------------------------------------*/
 
-.program {
-}
 
 .program-icon {
    text-align: center;
