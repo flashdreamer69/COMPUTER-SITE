@@ -111,7 +111,7 @@
 
 @media (max-width: 600px) {
    .intro-content {
-      padding-top: 180px;
+      padding-top: 140px;
       margin-bottom: 213px;
    }
 
@@ -166,10 +166,7 @@
 }
 
 @media (max-width: 500px) {
-   .border {
-      width: 425px;
-      height: 450px;
-   }
+   
    .advantages {
       padding-bottom: 50px;
    }
@@ -181,5 +178,21 @@
       height: 390px;
    }
 }
+
+@media (max-width: 400px) {
+   .about__us {
+      padding-bottom: 50px;
+   }
+
+   .about-cash__center .count-line {
+      min-width: 280px;
+   }
+
+   .border {
+      width: 270px;
+      height: 300px;
+   }
+}
+
 
 
