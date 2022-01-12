@@ -104,7 +104,7 @@ body {
    background: linear-gradient(#C89AFC, #7C6AFA);
    height: 40px;
    padding: 10px 30px;
-   transition: background 0.4s linear;
+   transition: all 0.3s ease-in;
 }
 
 .header-btn:hover {
@@ -122,7 +122,6 @@ body {
 .intro-content {
    padding-top: 250px;
    max-width: 800px; 
-   margin-bottom: 240px;
 }
 .intro-header {
    font-size: 64px;
@@ -160,72 +159,53 @@ body {
    opacity: 0.4;
 }
 
+/*-----------------------------------------USER--------------------------------*/
 
-.about__user {
+.user {
    background-color: #121212;
-   padding: 20px 0;
+   padding: 40px 0;
+   margin: -100px 0px 0px 0px;
 }
 
-.about__user-inner {
+.user-inner {
    display: flex;
+   flex-wrap: wrap;
    align-items: center;
    justify-content: space-between;
-   flex-wrap: wrap;
-   
 }
 
-.about__user-inner button {
+.user-inner button {
    padding: 10px 30px;
+   height: 44px;
+   border: none;
    border-radius: 50px;
    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
-   border: none;
    color: white;
    font-size: 16px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
+   font-weight: bold;
    cursor: pointer;
+   margin-bottom: 20px;
 }
 
-.about__user-item {
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-}
-
-.about__user-item p {
-font-size: 16px;
-color: white;
-opacity: 0.4;
-margin-right: 20px;
-}
-
-.about__user-item:first-child {
+.user-info {
    margin-bottom: 10px;
 }
 
-.about__user-item:last-child {
-   margin-bottom: 0;
-}
-
-.about__user-item span {
-   color: white;
-   font-size: 16px;
-}
-
-.about-cash__top {
+.user-info__item {
    display: flex;
-   margin-bottom: 8px;
+   align-items: center;
+   justify-content: space-between;
 }
 
-.about-cash__top p {
-   font-size: 16px;
-   color: white;
-   opacity: 0.4;
+.user-info__item p {
    margin-right: 30px;
 }
 
-.about-cash__center .count-line {
+.user-info__item:first-child {
+   margin-bottom: 10px;
+}
+
+.count-line {
    position: relative;
    background-color: white;
    width: 100%;
@@ -234,28 +214,30 @@ margin-right: 20px;
    margin-bottom: 8px;
 }
 
-.about-cash__center .count-line:before {
+.count-line::before {
    position: absolute;
    content: '';
-   left: 0;
    top: 0;
-   width: 70%;
+   left: 0;
    height: 6px;
+   width: 70%;
    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
 }
 
-.about-cash__bottom {
+.user-cash__top {
    display: flex;
-   justify-content: space-between;
+   margin-bottom: 8px;
+}
+
+.user-cash__top p {
+   margin-right: 30px;
+}
+
+.user-cash__bottom {
+   display: flex;
    align-items: center;
+   justify-content: space-between;
 }
-
-.about-cash__bottom p {
-   font-size: 16px;
-   color: white;
-   opacity: 0.4;
-}
-
 /*------------------------------------------ABOUT US---------------------------------------------------------*/
 
 .about__us {
@@ -274,19 +256,6 @@ margin-right: 20px;
    max-width: 526px;
    position: relative;
 }
-
-/* .about__us-img::before {
-   position: absolute;
-   content: '';
-   width: 470px;
-   height: 470px;
-   border: 30px solid transparent;
-   border-image: linear-gradient(#0B0E7F , #0B95DD);
-   border-image-slice: 1;
-   bottom: 0;
-   left: 30px;
-   top: 10px;
-} */
 
 
 .about__us-img img {
