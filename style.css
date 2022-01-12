@@ -116,13 +116,14 @@ body {
 .intro {
    background: url(img/intro-bg.jpg) center no-repeat;
    background-size: cover;
-   height: 100vh;
+   min-height: 960px;
 }
 
 .intro-content {
-   padding-top: 250px;
+   margin-top: 250px;
    max-width: 800px; 
 }
+
 .intro-header {
    font-size: 64px;
    font-weight: bold;
@@ -131,15 +132,15 @@ body {
 }
 .intro-wrapper {
    display: flex;
-   text-align: center;
+   align-items: center;
    
 }
 .intro-item {
    width: 102px;
    height: 112px;
    background-color: #121212;
-   margin-right: 30px;
    display: flex;
+   margin-right: 30px;
    flex-direction: column;
    align-items: center;
    justify-content: center;
@@ -164,7 +165,6 @@ body {
 .user {
    background-color: #121212;
    padding: 40px 0;
-   margin: -100px 0px 0px 0px;
 }
 
 .user-inner {
