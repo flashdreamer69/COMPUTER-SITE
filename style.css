@@ -636,9 +636,10 @@ opacity: 0.8;
    display: flex;
    align-items: center;
    justify-content: center;
+   flex-wrap: wrap;
 }
 .subscribe-input {
-   width: 560px;
+   width: 600px;
    min-height: 44px;
    padding: 0 20px;
    border-radius: 50px;
@@ -648,7 +649,6 @@ opacity: 0.8;
    color: white;
    font-size: 15px;
    cursor: pointer;
-   position: relative;
 }
 
 .subscribe-input::placeholder {
@@ -669,8 +669,8 @@ opacity: 0.8;
    cursor: pointer;
    font-size: 16px;
    font-weight: bold;
-   position: absolute;
-   right: 32%;
+   margin-left: -30px;
+   
 }
 .social {
    padding-top: 40px;
