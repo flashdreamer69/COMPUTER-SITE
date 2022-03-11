@@ -76,15 +76,13 @@
 }
 
 @media (max-width: 760px) {
-   
-
    .intro-item {
       width: 100px;
       height: 90px;
    }
 
    .count-line {
-      min-width: 540px;
+      min-width: 450px;
    }
 
    .about__us {
@@ -94,8 +92,6 @@
    .subscribe-input {
       margin-bottom: 30px;
    }
-
-
 }
 
 @media (max-width: 600px) {
@@ -157,6 +153,10 @@
       width: 370px;
       height: 390px;
    }
+
+   .count-line {
+      min-width: 400px;
+   }
 }
 
 @media (max-width: 400px) {
@@ -165,7 +165,6 @@
       font-size: 37px;
    }
 
-   
    .user-inner {
       justify-content: center;
    }
@@ -187,12 +186,6 @@
    .count-line {
       min-width: 250px;
    }
-
-   
-
-
-
-
 }
 
 
